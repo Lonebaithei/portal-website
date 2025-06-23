@@ -1,5 +1,9 @@
 section {
     background-image: url(images/starlinking.webp);
+    max-width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 .glass-form {
   --bg-color: rgba(255, 255, 255, 0.25);
