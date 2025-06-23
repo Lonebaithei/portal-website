@@ -148,3 +148,58 @@ button[type="submit"]:hover {
     --input-focus: rgba(0, 0, 0, 0.3);
   }
 }
+
+/* Responsive styles */
+@media (max-width: 900px) {
+  .glass-form {
+    width: 90%;
+    min-height: 400px;
+  }
+
+  .glass-content {
+    padding: 20px;
+  }
+
+  .form-container h3 {
+    font-size: 24px;
+  }
+
+  .form-group input {
+    padding: 10px 15px 10px 40px;
+    font-size: 14px;
+  }
+
+  button[type="submit"] {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .glass-form {
+    width: 80%;
+    min-height: 450px;
+  }
+
+  .hamburger {
+    display: none; /* Hide hamburger menu on larger screens */
+  } 
+
+  .glass-content {
+    padding: 25px;
+  }
+
+  .form-container h3 {
+    font-size: 26px;
+  }
+
+  .form-group input {
+    padding: 11px 15px 11px 42px;
+    font-size: 15px;
+  }
+
+  button[type="submit"] {
+    padding: 11px;
+    font-size: 15px;
+  }
+}
