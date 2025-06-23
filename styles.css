@@ -1,3 +1,6 @@
+main {
+    background-image: url(images/starlinking.webp);
+}
 .glass-form {
   --bg-color: rgba(255, 255, 255, 0.25);
   --highlight: rgba(255, 255, 255, 0.75);
