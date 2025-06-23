@@ -21,6 +21,17 @@ section {
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2);
 }
 
+.glass-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    background: var(--bg-color);
+    color: var(--text);
+}
+
 .glass-filter,
 .glass-overlay,
 .glass-specular {
