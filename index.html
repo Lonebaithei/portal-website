@@ -10,14 +10,15 @@
 
 
 <body>
-  <main>
+  <section>
+
         <!-- SVG Filter for Glass Distortion -->
-<svg style="display: none">
-  <filter id="glass-distortion">
-    <feTurbulence type="turbulence" baseFrequency="0.008" numOctaves="2" result="noise" />
-    <feDisplacementMap in="SourceGraphic" in2="noise" scale="77" />
-  </filter>
-</svg>
+    <svg style="display: none">
+        <filter id="glass-distortion">
+            <feTurbulence type="turbulence" baseFrequency="0.008" numOctaves="2" result="noise" />
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="77" />
+        </filter>
+    </svg>
 
 <div class="glass-form">
         <div class="glass-filter"></div>
@@ -73,7 +74,7 @@
     </div>
   </div>
 </div>
-  </main>
+  </section>
 
 <script src="/script.js"></script>
 </body>
