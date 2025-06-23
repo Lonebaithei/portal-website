@@ -28,6 +28,7 @@ section {
     justify-content: center;
     margin: auto;
     padding: 20px;
+    padding-top: 2rem;
     background: var(--bg-color);
     color: var(--text);
 }
